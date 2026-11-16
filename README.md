@@ -7,8 +7,6 @@ Products linked from the page:
 - Ovels Bot, a Discord bot with a web dashboard: https://bot.ovels.in
 - Ovels App, an AI training and nutrition coach: https://app.ovels.in
 
-Other repos live under https://github.com/Ovels-Devs.
-
 ## Running it
 
 You need Node 20+ or Bun.
