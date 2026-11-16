@@ -7,8 +7,6 @@ Products linked from the page:
 - Ovels Bot, a Discord bot with a web dashboard: https://bot.ovels.in
 - Ovels App, an AI training and nutrition coach: https://app.ovels.in
 
-Other repos live under https://github.com/Ovels-Devs.
-
 ## Running it
 
 You need Node 20+ or Bun.
@@ -124,14 +122,6 @@ If you will never add tracking, you can delete the three consent files, the `Con
 ## Fonts and third-party requests
 
 All fonts are bundled in `src/fonts/` and loaded with `next/font/local`, and the Content-Security-Policy in `next.config.ts` only allows the site's own origin. That is deliberate, since requests to Google Fonts are a GDPR problem in some EU courts. If you add an external script, image host or embed, you have to allow it in that CSP or the browser will block it.
-
-## Deploying
-
-The site is hosted on Vercel.
-
-1. Import the GitHub repo as a new project. Next.js is detected, the defaults are fine, and there are no environment variables.
-2. Under Project > Domains, add `ovels.in` and point DNS at Vercel (A record `76.76.21.21`, or a CNAME to `cname.vercel-dns.com`).
-3. After the first deploy, add the site to Google Search Console and Bing Webmaster Tools and submit `https://ovels.in/sitemap.xml`.
 
 ## Stack
 
