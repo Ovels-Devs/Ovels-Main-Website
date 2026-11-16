@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ovelsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3D2E"/>
+      <stop offset="100%" stop-color="#123C2E"/>
+    </linearGradient>
+    <linearGradient id="ovelsRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#39E39A"/>
+      <stop offset="100%" stop-color="#1FA971"/>
+    </linearGradient>
+    <linearGradient id="ovelsO" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7CFFC4"/>
+      <stop offset="55%" stop-color="#2ECC90"/>
+      <stop offset="100%" stop-color="#0F8F5C"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#04140D" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="url(#ovelsBg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="120" fill="none" stroke="url(#ovelsRing)" stroke-width="6" opacity="0.55"/>
+
+  <g filter="url(#softShadow)">
+    <circle cx="256" cy="256" r="128" fill="none" stroke="url(#ovelsO)" stroke-width="34"/>
+    <circle cx="256" cy="150" r="17" fill="#B9FFDF"/>
+  </g>
+
+  <path d="M256 210 L286 240 L256 270 L226 240 Z" fill="#04140D" opacity="0.85"/>
+
+  <g opacity="0.9">
+    <circle cx="120" cy="392" r="5" fill="#39E39A"/>
+    <circle cx="392" cy="392" r="5" fill="#39E39A"/>
+    <circle cx="392" cy="120" r="5" fill="#39E39A"/>
+  </g>
+</svg>

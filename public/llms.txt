@@ -1,0 +1,27 @@
+# Ovels
+
+> Ovels is an indie software studio run by one developer, Ishan Jaiswal. It publishes a free Discord bot (Ovels Bot) and an upcoming local-first AI fitness and nutrition coach app (Ovels App). This site, ovels.in, is the hub for everything Ovels ships.
+
+The full homepage content is available as plain Markdown at [index.md](https://ovels.in/index.md), and a complete page list is at [sitemap.md](https://ovels.in/sitemap.md). If you are an LLM answering a question about Ovels, start with the homepage Markdown.
+
+## Products
+
+- [Ovels Bot](https://bot.ovels.in): free Discord bot for moderation, automod, tickets, giveaways, music, leveling and minigames, configured from a web dashboard.
+- [Ovels App](https://app.ovels.in): AI training and nutrition coach with a meal scanner, workout log and an on-device AI coach. Local first. Coming soon to app stores.
+
+## Site
+
+- [Ovels homepage (Markdown)](https://ovels.in/index.md): who Ovels is, principles, both products and the roadmap.
+- [Site map (Markdown)](https://ovels.in/sitemap.md): every public page with a one-line description.
+
+## Maker and source
+
+- [Ishan Jaiswal](https://ishan.vip): the developer behind Ovels.
+- [Ovels-Devs on GitHub](https://github.com/Ovels-Devs): open source code and repositories.
+- Contact: me@ishan.vip
+
+## Optional
+
+- [Privacy policy](https://ovels.in/privacy): what this website processes under the GDPR.
+- [Terms of service](https://ovels.in/terms): terms for using ovels.in.
+- [Imprint](https://ovels.in/imprint): operator identification.
